@@ -1,0 +1,6 @@
+local args = {
+    [1] = 6
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:rebirth"):FireServer(unpack(args))
+--Code 3
