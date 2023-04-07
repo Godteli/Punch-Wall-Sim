@@ -1,0 +1,6 @@
+local args = {
+    [1] = 2
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:spin"):FireServer(unpack(args))
+--Code 2
