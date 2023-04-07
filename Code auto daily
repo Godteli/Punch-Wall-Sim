@@ -1,0 +1,6 @@
+local args = {
+    [1] = 15
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:claimDailyReward"):FireServer(unpack(args))
+--Code 4
