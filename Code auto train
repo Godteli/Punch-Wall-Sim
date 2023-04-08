@@ -1,5 +1,5 @@
 local args = {
-    [1] = workspace:WaitForChild("BoxingBag"):WaitForChild("Meshes/Axel_Cylinder.029")
+    [1] = workspace:WaitForChild("BoxingBag"):WaitForChild("Meshes/Axel_Cylinder.069")
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("events-shared/network@GlobalEvents"):WaitForChild("train"):FireServer(unpack(args))
